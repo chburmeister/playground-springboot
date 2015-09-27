@@ -51,7 +51,7 @@ public class CityRepository {
 		logger.info("searching country for: " + cityName);
 		String result = null;
 		for (City city : cities) {
-			if (cityName == city.getName()) {
+			if (cityName.equals(city.getName())) {
 				result = city.getCountry();
 			}
 		}

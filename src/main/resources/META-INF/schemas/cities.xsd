@@ -29,7 +29,7 @@
 		</xs:complexType>
 	</xs:element>
 
-	<!-- <xs:element name="getCountryByCityNameRequest">
+	<xs:element name="getCountryByCityNameRequest">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="cityName" type="xs:string" />
@@ -43,7 +43,6 @@
 				<xs:element name="country" type="xs:string" />
 			</xs:sequence>
 		</xs:complexType>
-	</xs:element> -->
-	
+	</xs:element> 	
 
 </xs:schema>
